@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "144329629092",
+    "firebase_url": "https://circulapp-29246-default-rtdb.firebaseio.com",
+    "project_id": "circulapp-29246",
+    "storage_bucket": "circulapp-29246.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:144329629092:android:5330d560d42831eb803531",
+        "android_client_info": {
+          "package_name": "com.example.CirculAPP"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAg0nrpjmBFICJf1T9qGysYB8mU674bS-k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

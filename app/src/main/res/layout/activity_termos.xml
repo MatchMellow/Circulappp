@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/termosText"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Aqui estão os termos de uso..."
+        android:textSize="16sp"
+        android:scrollbars="vertical"
+        android:maxHeight="300dp"
+        android:fontFamily="@font/sam_font2"
+        />
+
+    <Button
+        android:id="@+id/acceptButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aceitar"
+        android:fontFamily="@font/sam_font2"
+        />
+
+    <Button
+        android:id="@+id/declineButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recusar"
+        android:fontFamily="@font/sam_font2"
+        />
+</LinearLayout>

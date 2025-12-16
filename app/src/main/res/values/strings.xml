@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">App_Circular</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="default_web_client_id">1:144329629092:web:11fe99ae5e9cdc8f803531</string>
+</resources>

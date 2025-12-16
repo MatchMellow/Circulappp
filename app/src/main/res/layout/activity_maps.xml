@@ -1,0 +1,124 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/mensagemContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/azul"
+        android:padding="16dp"
+        android:gravity="center"
+        android:visibility="gone"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/mensagemTexto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Localização indisponível"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:fontFamily="@font/sam_font2"
+            />
+    </LinearLayout>
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="0dp"
+        android:gravity="center"
+        android:background="@color/azul">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ativar notificações"
+            android:textSize="19sp"
+            android:textColor="@color/white"
+            android:layout_marginEnd="0.1dp"
+            android:background="@color/azul"
+            android:fontFamily="@font/sam_font2"
+
+            />
+
+        <CheckBox
+            android:id="@+id/checkBoxNotification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:buttonTint="@color/white"
+            android:backgroundTint="@android:color/white"
+            android:paddingStart="0.5dp"
+            android:layout_marginStart="0.5dp"
+            android:fontFamily="@font/sam_font2"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="16dp"
+        android:background="@color/azul">
+
+        <Button
+            android:id="@+id/btnCentralizarCircular"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Centralizar posição"
+            android:textSize="11.9sp"
+            android:textColor="@color/azul"
+            android:backgroundTint="@color/white"
+            android:textStyle="bold"
+            android:layout_marginEnd="6dp"
+            tools:ignore="Suspicious0dp"
+            android:fontFamily="@font/sam_font2"
+            />
+
+        <Button
+            android:id="@+id/btnVoltar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Voltar"
+            android:textSize="11.9sp"
+            android:textColor="@color/azul"
+            android:backgroundTint="@color/white"
+            android:textStyle="bold"
+            android:layout_marginStart="6dp"
+            tools:ignore="Suspicious0dp"
+            android:fontFamily="@font/sam_font2"
+            />
+
+        <Button
+            android:id="@+id/btnTravarPosicao"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Travar posição"
+            android:textSize="11.9sp"
+            android:textColor="@color/azul"
+            android:backgroundTint="@color/white"
+            android:textStyle="bold"
+            android:layout_marginStart="6dp"
+            android:fontFamily="@font/sam_font2"
+            />
+    </LinearLayout>
+
+</LinearLayout>

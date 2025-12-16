@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#004AAD"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#004AAD"
+    android:textSize="14sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#004AAD"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/btnAceitar"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="Aceitar"
+            android:layout_marginEnd="4dp"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/azul"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            app:cornerRadius="8dp"
+            android:fontFamily="@font/sam_font2"
+            />
+
+        <Button
+            android:id="@+id/btnNaoAceitar"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="Não Aceitar"
+            android:layout_marginStart="4dp"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/azul"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            app:cornerRadius="8dp"
+            android:fontFamily="@font/sam_font2"
+            />
+    </LinearLayout>
+</LinearLayout>
